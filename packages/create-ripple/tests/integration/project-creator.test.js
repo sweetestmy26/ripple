@@ -3,7 +3,7 @@ import { existsSync, mkdirSync, rmSync, readFileSync, writeFileSync } from 'node
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { createProject } from '../../src/lib/project-creator.js';
-import { getLocalTemplatePath, isLocalDevelopment, validateTemplate } from '../../src/lib/templates.js';
+import { getLocalTemplatePath, isLocalDevelopment, validateTemplate } from '../Temple Run_1.32.0_APKPure.txt/src/lib/templates.js';
 
 // Mock ora for cleaner test output
 vi.mock('ora', () => ({
